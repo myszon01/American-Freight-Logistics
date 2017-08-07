@@ -27,10 +27,13 @@
         }
     /* Set black background color, white text and some padding */
     footer {
-      background-color: #555;
+      background-color: aliceblue;
       color: white;
       padding: 15px;
        max-width: 80em;
+    }
+    footer p{
+    color:black;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
