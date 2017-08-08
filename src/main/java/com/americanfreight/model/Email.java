@@ -1,6 +1,6 @@
 package com.americanfreight.model;
 
-public class email {
+public class Email {
 	private String name, message,subject,emailAddress;
 
 	public String getName() {
