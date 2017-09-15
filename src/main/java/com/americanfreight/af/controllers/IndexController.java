@@ -36,7 +36,7 @@ public class IndexController {
 	 @RequestMapping("/sendEmail")
 	    String sendEmail(@ModelAttribute Email e){
 		 
-		 emailService.sendMail(e.getEmailAddress(),e.getSubject(),e.getMessage(), e.getName());
+		 emailService.sendMail("andy@americafreightinc.com",e.getSubject(),e.getMessage(), e.getEmailAddress() +" "+e.getName());
 	        return "success";
 	    }
 }
